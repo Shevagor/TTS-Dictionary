@@ -1,0 +1,34 @@
+table {
+	width: 50%;
+	background: #88abfc;
+	background: -moz-linear-gradient(top,  #88abfc 0%, #53cbf1 50%, #ff9eeb 100%);
+	background: -webkit-linear-gradient(top,  #88abfc 0%,#53cbf1 50%,#ff9eeb 100%);
+	background: linear-gradient(to bottom,  #88abfc 0%,#53cbf1 50%,#ff9eeb 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88abfc', endColorstr='#ff9eeb',GradientType=0 );
+
+
+
+    }
+caption {
+  font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  text-align: center;
+   }
+td {
+    padding: 10px; /* Поля вокруг текста */ 
+    border: 1px solid #fff; /* Граница вокруг ячеек */ 
+    text-align: center;
+    white-space:pre;
+   }
+
+th {
+    padding: 10px; /* Поля вокруг текста */ 
+    border: 1px solid #fff; /* Граница вокруг ячеек */ 
+    font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    
+   }
+tr {
+  font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+   }
+.floatedTable {
+  float:left;
+   }
